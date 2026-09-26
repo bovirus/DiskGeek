@@ -43,7 +43,7 @@
 ; git tag is the single source of truth. The value below is only a fallback for a
 ; local build straight out of the Inno Setup Compiler.
 #ifndef MyAppVersion
-#define MyAppVersion "1.0.1"
+#define MyAppVersion "1.1.1"
 #endif
 #define MyAppPublisher "TechyGeeksHome"
 #define MyAppURL "https://techygeekshome.info/diskgeek/"
@@ -84,6 +84,7 @@ DefaultDirName={autopf}\{#MyAppPublisher}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 UninstallDisplayName={#MyAppName} {#MyAppVersion}
 UninstallDisplayIcon={app}\{#MyAppExeName}
+LicenseFile=..\LICENSE.rtf
 OutputDir=Output
 OutputBaseFilename=DiskGeekSetup
 SetupIconFile={#IconFile}
@@ -112,6 +113,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopShortcut}"; GroupDescription
 
 [Files]
 Source: "{#SourceDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\LICENSE"; DestDir: "{app}"; DestName: "LICENSE.txt"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
