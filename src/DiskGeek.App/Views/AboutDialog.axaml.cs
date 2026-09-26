@@ -48,9 +48,9 @@ public partial class AboutDialog : Window
         var v = MainWindowViewModel.CurrentVersion;
         VersionText.Text = $"Version {v.Major}.{v.Minor}.{v.Build}  ·  TechyGeeksHome";
         LicenceText.Text =
-            "Proprietary freeware — free for everyone, including commercial use. " +
+            "GPL-3.0. Free for everyone, including at work. " +
             "No ads, no bundled offers, no telemetry.";
-        CopyrightText.Text = $"© {DateTime.Now.Year} TechyGeeksHome. All rights reserved.";
+        CopyrightText.Text = $"© {DateTime.Now.Year} TechyGeeksHome";
 
         WebsiteButton.Click += (_, _) => OpenUrl(WebsiteUrl);
         ProductButton.Click += (_, _) => OpenUrl(ProductUrl);
