@@ -8,7 +8,7 @@
 
 [![Version](https://img.shields.io/github/v/release/techygeekshome/DiskGeek?label=version&color=4c9bff)](https://github.com/techygeekshome/DiskGeek/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078d4)](#-download--run)
-[![License](https://img.shields.io/badge/license-proprietary%20freeware-b7791f)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](LICENSE)
 [![Made by TechyGeeksHome](https://img.shields.io/badge/made%20by-TechyGeeksHome-b191f2)](https://techygeekshome.info)
 [![Support on Ko-fi](https://img.shields.io/badge/support-Ko--fi-ff5e5b)](https://ko-fi.com/techygeekshome)
 
@@ -109,7 +109,9 @@ Found a bug or have a request? [Open an issue](https://github.com/techygeekshome
 
 ## 📄 License
 
-DiskGeek is free to download and use. This is proprietary freeware, not open source — see [LICENSE](LICENSE) for the full terms.
+DiskGeek is free software under the **GNU General Public License v3.0**, see [LICENSE](LICENSE)
+and [gnu.org](https://www.gnu.org/licenses/gpl-3.0.en.html). Anyone may use, modify and share it;
+a distributed modification must publish its source under the same licence.
 
 © 2026 TechyGeeksHome | Andrew Armstrong.
 
