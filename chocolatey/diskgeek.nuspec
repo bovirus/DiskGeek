@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>diskgeek</id>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <title>DiskGeek</title>
     <authors>TechyGeeksHome</authors>
     <owners>techygeekshome</owners>
@@ -22,9 +22,9 @@ picture you have to interpret.
 Free for personal and commercial use. The .NET 8 runtime is bundled, so there is nothing to install
 first.</description>
     <summary>Free disk space analyser for Windows - find what is actually filling the drive</summary>
-    <releaseNotes>https://github.com/techygeekshome/DiskGeek/releases/tag/v1.1.0</releaseNotes>
+    <releaseNotes>https://github.com/techygeekshome/DiskGeek/releases/tag/v1.1.1</releaseNotes>
     <copyright>Copyright (c) 2026 TechyGeeksHome</copyright>
-    <tags>diskgeek disk-space disk-usage analyser storage windows freeware</tags>
+    <tags>diskgeek disk-space disk-usage analyser storage windows foss</tags>
     <projectSourceUrl>https://github.com/techygeekshome/DiskGeek</projectSourceUrl>
     <packageSourceUrl>https://github.com/techygeekshome/DiskGeek</packageSourceUrl>
     <docsUrl>https://techygeekshome.info/diskgeek/</docsUrl>
