@@ -113,7 +113,7 @@ DiskGeek is free software under the **GNU General Public License v3.0**, see [LI
 and [gnu.org](https://www.gnu.org/licenses/gpl-3.0.en.html). Anyone may use, modify and share it;
 a distributed modification must publish its source under the same licence.
 
-© 2026 TechyGeeksHome | Andrew Armstrong.
+© 2026 TechyGeeksHome.
 
 ---
 
